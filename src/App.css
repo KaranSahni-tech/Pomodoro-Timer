@@ -1,0 +1,71 @@
+@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, #8494ff, #1a05a2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.parent {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.parent h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 39vh; */
+  font-size: 100px;
+  color: #6367ff;
+  font-style: bold;
+  font-weight: 700;
+}
+button {
+  background-color: white;
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: #6367ff;
+  transition: transform 0.3s ease;
+
+  /* border: 1px solid #1A05A2; */
+}
+button:hover {
+  cursor: pointer;
+  transform: translateY(-4px) scale(1.05);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: wrap;
+  gap: 2rem;
+  margin-top: 20px;
+}
+.session {
+  display: flex;
+  justify-content: center;
+  align-items: wrap;
+  gap: 4rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.session button {
+  background-color: white;
+  color: #6367ff;
+}
+p {
+  text-align: center;
+  padding-top: 23px;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 36px;
+  color: #bfc6c4;
+}
